@@ -12,7 +12,7 @@ class PathTrait(TraitType):
 
     @property
     def info_text(self):
-        return f'A pathlib.{self._pathlib_class_name} trait.'
+        return f'a pathlib.{self._pathlib_class_name} trait'
 
     def validate(self, obj, value):
         # Get named object from pathlib
@@ -21,7 +21,7 @@ class PathTrait(TraitType):
         if isinstance(value, str):
             return pathlib_object(value)
 
-        elif isinstance(value, self._pathlib_class_name):
+        elif isinstance(value, pathlib_object):
             return value
 
         self.error(obj, value)

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='traitlets_paths',
-    version='0.0.1',
+    version='0.1.0',
     author='Zach Sailer',
     author_email='zachsailer@gmail.com',
     description='Traitlets module for pathlib.',
