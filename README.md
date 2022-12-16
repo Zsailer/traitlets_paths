@@ -10,6 +10,14 @@ Install from pip:
 ```
 pip install traitlets_paths
 ```
+or conda:
+```
+conda install -c conda-forge traitlets_paths
+```
+or mamba: 
+```
+mamba install -c conda-forge traitlets_paths
+```
 
 **Basic Example**
 
